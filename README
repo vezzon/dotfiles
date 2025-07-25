@@ -1,0 +1,17 @@
+# Debian Setup Script
+
+This repository provides a single-command setup for a development environment on Debian-based systems.  
+It installs and configures:
+
+- **Zsh** (with Oh My Zsh)
+- **Tmux** (with a custom configuration)
+- **Latest Neovim** (built from source)
+
+---
+
+## 🚀 One-Line Installation
+
+Run this single command to set up everything:
+
+```bash
+bash <(curl -fsSL https://raw.githubusercontent.com/vezzon/dotfiles/master/debian-setup.sh)
